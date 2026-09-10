@@ -1,0 +1,25 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #4c1fb6;
+    font-size: 40px;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 30px;
+}
+
+p {
+    color: #34495e;
+    line-height: 1.6;
+}
+
+li {
+    color: #2c3e50;
+    margin: 8px 0;
+}
