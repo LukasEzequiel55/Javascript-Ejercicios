@@ -1,0 +1,14 @@
+.Cajita{
+    background-color: rgb(177, 163, 166);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.elemento{
+    color: aliceblue;
+    background-color:rgb(152, 84, 240);
+    border: 3px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}

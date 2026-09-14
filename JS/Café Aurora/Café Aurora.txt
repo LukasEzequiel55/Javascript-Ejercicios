@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Café Aurora</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__logo">
+            <span class="header__logo-icon"></span>
+            <span class="header__logo-text">CAFÉ AURORA</span>
+        </div>
+
+        <nav class="header__nav">
+            <a href="#" class="header__link">Inicio</a>
+            <a href="#" class="header__link">Nosotros</a>
+            <a href="#" class="header__link">Menú</a>
+            <a href="#" class="header__link">Galería</a>
+            <a href="#" class="header__link">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero__content">
+
+                <h1 class="hero__title">
+                    El mejor café,
+                    <span class="hero__title-highlight">
+                        todos los días
+                    </span>
+                </h1>
+
+                <p class="hero__description">
+                    En Café Aurora seleccionamos granos de la más
+                    alta calidad para ofrecerte una experiencia única.
+                </p>
+
+                <div class="hero__buttons">
+                    <a href="#" class="hero__button hero__button--primary">
+                        Ver menú
+                    </a>
+
+                    <a href="#" class="hero__button hero__button--secondary">
+                        Contáctanos
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero__image">
+                <img src="Café.jpg" alt="">
+            </div>
+
+        </section>
+
+
+        <!-- BENEFICIOS -->
+        <section class="benefits">
+
+            <div class="benefit">
+
+                <div class="benefit__content">
+                    <h3 class="benefit__title">
+                        Café de calidad
+                    </h3>
+
+                    <p class="benefit__description">
+                        Seleccionamos los mejores granos del mundo.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit__content">
+                    <h3 class="benefit__title">
+                        Ambiente acogedor
+                    </h3>
+
+                    <p class="benefit__description">
+                        Un lugar perfecto para relajarte o trabajar.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit__content">
+                    <h3 class="benefit__title">
+                        Hecho con pasión
+                    </h3>
+
+                    <p class="benefit__description">
+                        Amamos lo que hacemos y se nota en cada taza.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTOS -->
+        <section class="products">
+
+            <div class="products__header">
+
+                <h2 class="products__title">
+                    Productos destacados
+                </h2>
+
+                <span class="products__line"></span>
+
+            </div>
+
+
+            <div class="products__list">
+
+                <!-- Capuchino -->
+                <article class="product-card">
+
+                    <div class="product-card__image">
+                        <img src="Capuchino.jpg" alt="">
+                    </div>
+
+                    <div class="product-card__content">
+
+                        <h3 class="product-card__title">
+                            Capuchino
+                        </h3>
+
+                        <p class="product-card__price">
+                            $45
+                        </p>
+
+                        <p class="product-card__description">
+                            Espresso con leche vaporizada y espuma.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Cold Brew -->
+                <article class="product-card">
+
+                    <div class="product-card__image">
+                        <img src="Cold brew.jpg" alt="">
+                    </div>
+
+                    <div class="product-card__content">
+
+                        <h3 class="product-card__title">
+                            Cold Brew
+                        </h3>
+
+                        <p class="product-card__price">
+                            $50
+                        </p>
+
+                        <p class="product-card__description">
+                            Café frío y suave, perfecto para cualquier momento.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Muffin de chocolate -->
+                <article class="product-card">
+
+                    <div class="product-card__image">
+                        <img src="Muffin de chocolate.jpg" alt="">
+                    </div>
+
+                    <div class="product-card__content">
+
+                        <h3 class="product-card__title">
+                            Muffin de chocolate
+                        </h3>
+
+                        <p class="product-card__price">
+                            $35
+                        </p>
+
+                        <p class="product-card__description">
+                            Esponjoso muffin con trozos de chocolate.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Cheesecake -->
+                <article class="product-card">
+
+                    <div class="product-card__image">
+                        <img src="Cheescake.jpg" alt="">
+                    </div>
+
+                    <div class="product-card__content">
+
+                        <h3 class="product-card__title">
+                            Cheesecake
+                        </h3>
+
+                        <p class="product-card__price">
+                            $55
+                        </p>
+
+                        <p class="product-card__description">
+                            Suave, cremoso y con el toque perfecto de dulzura.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer__copyright">
+            © 2026 Café Aurora. Todos los derechos reservados.
+        </div>
+
+        <div class="footer__social">
+
+            <a href="#" class="footer__social-link">
+                Facebook
+            </a>
+
+            <a href="#" class="footer__social-link">
+                Instagram
+            </a>
+
+            <a href="#" class="footer__social-link">
+                Twitter
+            </a>
+
+        </div>
+
+        <div class="footer__message">
+            Ulises Ortíz Ejercicio CH72
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* HEADER */
+.header {
+    background-color: rgb(165, 89, 236);
+    color: aliceblue;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__logo {
+    display: flex;
+    gap: 50px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.header__nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 5%;
+    gap: 10px;
+}
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+}
+.hero__title {
+    font-size: 40px;
+    line-height: 1.5;
+}
+.hero__title-highlight {
+    color: #bf1cd8;
+}
+.hero__description {
+    line-height: 1.8;
+}
+.hero__buttons {
+    display: flex;
+    gap: 50px;
+}
+.hero__button {
+    background-color: #bf1cd8;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.hero__button:hover {
+    background-color: #F89E38;
+}
+.hero__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+    object-fit: scale-down;
+}
+/* BENEFICIOS */
+.benefits {
+    background-color: #F8F6FC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+}
+.benefit {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 300px;
+}
+.benefit__title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.benefit__description {
+    font-size: 12px;
+    color: #666;
+}
+/* PRODUCTOS */
+.products {
+    padding: 60px 40px;
+    text-align: center;
+}
+.products__header {
+    margin-bottom: 40px;
+}
+.products__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.products__line {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #9A75D7;
+    margin: 10px auto 0 auto;
+}
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.product-card {
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+    text-align: left;
+}
+.product-card__image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+.product-card__content {
+    padding: 15px;
+}
+.product-card__title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.product-card__price {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+.product-card__description {
+    font-size: 12px;
+    color: #777;
+    line-height: 1.4;
+}
+/* FOOTER */
+.footer {
+    background-color: #222;
+    color: #aaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 12px;
+}
+.footer__social {
+    display: flex;
+    gap: 15px;
+}
+.footer__social-link {
+    color: #aaa;
+    text-decoration: none;
+}

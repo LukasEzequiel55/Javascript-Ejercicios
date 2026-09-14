@@ -1,0 +1,21 @@
+.Cajita{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.elemento{
+    color: aliceblue;
+    background-color:rgb(152, 84, 240);
+    border: 3px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.elemento:hover{
+     background-color: #F89E38;
+}

@@ -1,0 +1,55 @@
+.Cajita {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    grid-template-areas: 
+        "header header"
+        "menu contenido"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: menu;
+}
+
+main {
+    grid-area: contenido;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.elemento {
+    color: aliceblue;
+    background-color: rgb(152, 84, 240);
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.elemento:hover {
+    background-color: #F89E38;
+}
+
+@media (max-width: 768px) {
+    .Cajita {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+
+        grid-template-areas:
+            "header"
+            "menu"
+            "contenido"
+            "footer";
+    }
+}
