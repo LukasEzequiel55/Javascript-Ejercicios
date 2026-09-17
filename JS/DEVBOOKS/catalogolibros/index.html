@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBooks</title>
+    <!--Link de CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Link de los iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Reto2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body class="bg-light">
+    <!-- Reto1 -->
+<header class="bg-white border-bottom py-3 text-center">
+    <div class="container">
+        <!--Título centrado-->
+        <h1 class="text-primary fw-bold mb-2">DevBooks</h1>
+        
+        <!--Navegación centrada-->
+        <nav class="d-flex justify-content-center align-items-center gap-2">
+            <a class="nav-link link-dark" href="#">Inicio</a>
+            <span class="text-secondary">|</span>
+            <a class="nav-link link-dark" href="#libros">Libros</a>
+            <span class="text-secondary">|</span>
+            <a class="nav-link link-dark" href="#categorias">Categorías</a>
+        </nav>
+    </div>
+</header>
+
+    <main class="container py-5">
+
+
+                <!--Reto 7-->
+        <section class="mb-5 text-center">
+            <h2 class="h4 mb-3 text-secondary">Encuentra tu próximo libro</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form class="d-flex gap-2" role="search" onsubmit="return false;">
+                        <input class="form-control" type="search" placeholder="Buscar libro..." aria-label="Buscar libro">
+                        <button class="btn btn-primary px-4" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+       <!--Reto 6-->
+        <section id="categorias" class="mb-5 text-center">
+            <h3 class="h5 mb-3 text-muted">Categorías</h3>
+            <div class="d-flex justify-content-center flex-wrap gap-2">
+                <button type="button" class="btn btn-outline-primary active">Todos</button>
+                <button type="button" class="btn btn-outline-secondary">Java</button>
+                <button type="button" class="btn btn-outline-secondary">JavaScript</button>
+                <button type="button" class="btn btn-outline-secondary">Web</button>
+                <button type="button" class="btn btn-outline-secondary">Bases de datos</button>
+                <button type="button" class="btn btn-outline-secondary">DevOps</button>
+            </div>
+        </section>
+        <!--Reto 4-->
+        <section id="libros" class="mb-5">
+            <div class="row g-4 justify-content-center">
+
+                <!-- Libro 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="./IMAGE/OIP.webp" class="card-img-top mx-auto d-block p-2" style="height: 220px; object-fit: contain;" alt="Clean Code">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Clean Code</h5>
+                            <p class="card-text">Guía práctica para escribir código limpio, legible y mantenible, con principios y mejores prácticas de programación.</p>
+                            <p class="card-text mt-auto"><small class="text-body-secondary">Programación</small></p>
+                            <a href="#" class="btn btn-primary">Ver libro</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libro 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="./IMAGE/9780070636774_9.jpeg" class="card-img-top mx-auto d-block p-2" style="height: 220px; object-fit: contain;" alt="Java">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Java: The Complete Reference Java</h5>
+                            <p class="card-text">Manual completo que cubre desde conceptos básicos hasta avanzados de Java, ideal para aprender y dominar el lenguaje.</p>
+                            <p class="card-text mt-auto"><small class="text-body-secondary">Java</small></p>
+                            <a href="#" class="btn btn-primary">Ver libro</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libro 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="./IMAGE/OIP (1).webp" class="card-img-top mx-auto d-block p-2" style="height: 220px; object-fit: contain;" alt="Eloquent JavaScript">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Eloquent JavaScript</h5>
+                            <p class="card-text">Manual completo que cubre desde conceptos básicos hasta avanzados de JavaScript, ideal para aprender y dominar el lenguaje.</p>
+                            <p class="card-text mt-auto"><small class="text-body-secondary">JavaScript</small></p>
+                            <a href="#" class="btn btn-primary">Ver libro</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libro 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="./IMAGE/OIP (2).webp" class="card-img-top mx-auto d-block p-2" style="height: 220px; object-fit: contain;" alt="HTML & CSS">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">HTML & CSS</h5>
+                            <p class="card-text">Manual completo que cubre desde conceptos básicos hasta avanzados de HTML y CSS, ideal para aprender y dominar el desarrollo web.</p>
+                            <p class="card-text mt-auto"><small class="text-body-secondary">Web</small></p>
+                            <a href="#" class="btn btn-primary">Ver libro</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libro 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="./IMAGE/OIP (3).webp" class="card-img-top mx-auto d-block p-2" style="height: 220px; object-fit: contain;" alt="You Don't Know JS">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">You Don't Know JS</h5>
+                            <p class="card-text">Profundiza en JavaScript con explicaciones detalladas y avanzadas para dominar el lenguaje.</p>
+                            <p class="card-text mt-auto"><small class="text-body-secondary">JavaScript</small></p>
+                            <a href="#" class="btn btn-primary">Ver libro</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libro 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="./IMAGE/91quawUTiVL._SL1500_.avif" class="card-img-top mx-auto d-block p-2" style="height: 220px; object-fit: contain;" alt="Design Patterns">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Design Patterns</h5>
+                            <p class="card-text">Explicación de patrones de diseño de software que ayudan a resolver problemas comunes en el desarrollo de aplicaciones.</p>
+                            <p class="card-text mt-auto"><small class="text-body-secondary">Arquitectura</small></p>
+                            <a href="#" class="btn btn-primary">Ver libro</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+<!-- formulario -->
+  <section class="my-5">      
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card shadow-sm border-0">
+        <div class="card-body p-4">
+          <!-- Título -->
+          <h2 class="card-title text-center mb-4 fw-bold text-primary">Formulario de Préstamo</h2>
+
+          <form>
+            <!-- Campo Nombre -->
+            <div class="mb-3">
+              <label for="nombre" class="form-label fw-semibold">Nombre completo</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ej. Juan Pérez" required>
+            </div>
+
+            <!-- Campo Correo -->
+            <div class="mb-3">
+              <label for="correo" class="form-label fw-semibold">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com" required>
+            </div>
+
+            <!-- Campo Libro con soporte visual -->
+            <div class="mb-3">
+              <label for="libro" class="form-label fw-semibold">Título del libro</label>
+              <input type="text" class="form-control mb-2" id="libro" placeholder="Nombre del libro a solicitar" required>
+            </div>
+
+            <!-- Campo Fecha de devolución -->
+            <div class="mb-4">
+              <label for="fechaDevolucion" class="form-label fw-semibold">Fecha de devolución</label>
+              <input type="date" class="form-control" id="fechaDevolucion" required>
+            </div>
+  
+            <!-- Botón de envío -->
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary btn-lg">
+                Solicitar préstamo
+              </button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+        </section>
+
+    </main>
+    <!--Footer-->
+    <footer class="bg-light text-dark py-4 mt-5 border-top">
+    <div class="container text-center">
+    <!-- Fila única con derechos y redes sociales -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <!-- Derechos de autor -->
+      <p class="text-muted mb-3 mb-md-0 small">
+        © 2026 DevBooks. Todos los derechos reservados.
+      </p>
+      <!-- Redes Sociales en línea -->
+      <div>
+        <a href="#" class="text-dark me-3 fs-5 text-decoration-none"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-dark me-3 fs-5 text-decoration-none"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-dark fs-5 text-decoration-none"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"crossorigin="anonymous"></script>
+</body>
+
+</html>
